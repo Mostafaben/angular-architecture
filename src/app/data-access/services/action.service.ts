@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {StateService} from "../state/state.service";
 import {Observable} from "rxjs";
-import {Item} from "../../app.component";
+import {Item} from "../interfaces/item.interface";
 
 @Injectable({
   providedIn: 'root'

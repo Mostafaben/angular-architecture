@@ -8,9 +8,3 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'islam-architecture';
 }
-
-
-export interface Item {
-  title: string;
-  price: number;
-}
