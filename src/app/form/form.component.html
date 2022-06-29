@@ -1,0 +1,6 @@
+<h1>FORM</h1>
+<div [formGroup]="form">
+  <input type="text" required formControlName="title">
+  <input type="number" required formControlName="price">
+  <button (click)="submitForm()" [disabled]="form.invalid">Submit</button>
+</div>
