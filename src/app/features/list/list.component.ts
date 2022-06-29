@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {StateService} from "../state/state.service";
+import {StateService} from "../../data-access/state/state.service";
 
 @Component({
   selector: 'app-list',

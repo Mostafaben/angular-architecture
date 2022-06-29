@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Item} from "../app.component";
+import {Item} from "../../app.component";
 import {BehaviorSubject, Observable} from "rxjs";
 
 @Injectable({

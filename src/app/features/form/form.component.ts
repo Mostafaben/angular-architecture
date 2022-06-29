@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-import {ActionService} from "../state/action.service";
+import {ActionService} from "../../data-access/services/action.service";
 
 @Component({
   selector: 'app-form',
